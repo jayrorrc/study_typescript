@@ -1,0 +1,13 @@
+version: '3.2'
+services:
+  web:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: jayrorrc/study_angular:latest
+    ports:
+      - 8080:8080
+    volumes:
+      - type: bind
+        source: ./
+        target: /opt/web
