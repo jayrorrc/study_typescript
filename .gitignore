@@ -1,0 +1,6 @@
+node_modules/*
+app/js/*
+npm-debug.log
+.DS_Store
+.sonar/*
+.sonarlint/*
