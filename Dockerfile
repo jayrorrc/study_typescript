@@ -6,5 +6,5 @@ WORKDIR /opt/web
 RUN npm install
 RUN npm run compile
 
-EXPOSE 8080
+EXPOSE 3000
 CMD npm start
